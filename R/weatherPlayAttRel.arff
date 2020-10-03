@@ -1,0 +1,31 @@
+@relation weather
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature real
+@attribute humidity real
+@attribute atmosphericPressure real
+@attribute windy {TRUE,FALSE}
+@attribute play {noplay,yesplay}
+
+@data
+sunny,50,85,65,FALSE,noplay
+sunny,52,90,70,TRUE,noplay
+overcast,30,86,80,FALSE,yesplay
+rainy,25,196,70,FALSE,yesplay
+rainy,28,80,90,FALSE,yesplay
+rainy,30,70,75,TRUE,noplay
+overcast,35,65,91,TRUE,yesplay
+sunny,48,95,120,FALSE,noplay
+sunny,18,70,130,FALSE,yesplay
+rainy,15,100,135,FALSE,yesplay
+sunny,52,40,125,TRUE,yesplay
+overcast,40,90,151,TRUE,yesplay
+overcast,20,25,163,FALSE,yesplay
+rainy,5,91,174,TRUE,noplay
+sunny,55,40,125,TRUE,yesplay
+rainy,28,80,90,FALSE,yesplay
+rainy,30,70,75,TRUE,noplay
+overcast,35,65,91,TRUE,yesplay
+sunny,46,95,120,FALSE,noplay
+sunny,60,70,130,FALSE,yesplay
+rainy,15,100,135,FALSE,yesplay
