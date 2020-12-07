@@ -1,6 +1,8 @@
 ## Network Topology
 ### Cisco Packet Tracer
 
+
+
 ## CLI Commands for Router0
 
 ```
