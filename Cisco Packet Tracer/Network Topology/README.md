@@ -14,7 +14,6 @@ X.25 software, Version 3.0.0.
 Press RETURN to get started!
 
 
-
 Router>enable
 Router#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -42,14 +41,7 @@ Router(config-if)#ip address 192.168.1.1 255.255.255.0
 Router(config-if)#no shutdown
 
 %LINK-5-CHANGED: Interface Serial2/0, changed state to down
-Router(config-if)#wr
-                  ^
-% Invalid input detected at '^' marker.
-	
-Router(config-if)#vvr
-                  ^
-% Invalid input detected at '^' marker.
-	
+
 Router(config-if)#exit
 Router(config)#exit
 Router#
@@ -184,7 +176,6 @@ line vty 0 4
 !
 end
 
-
 ```
 
 ## CLI Commands for Router1
@@ -210,49 +201,7 @@ Press RETURN to get started!
 
 
 
-Router>enable
-Router#configure terminal
-Enter configuration commands, one per line.  End with CNTL/Z.
-Router(config)#interface Serial2/0
-Router(config-if)#ip address 192.168.1.2 255.255.255.0
-Router(config-if)#no shutdown
-
-Router(config-if)#
-%LINK-5-CHANGED: Interface Serial2/0, changed state to up
-
-%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial2/0, changed state to up
-exit
-Router(config)#exit
-Router#
-%SYS-5-CONFIG_I: Configured from console by console
-exit
-
-
-
-
-
-
-
-
-
-Router con0 is now available
-
-
-
-
-
-
 Press RETURN to get started.
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -267,16 +216,8 @@ Router(config)#exit
 Router#
 %SYS-5-CONFIG_I: Configured from console by console
 
-Router#configt
-Translating "configt"...domain server (255.255.255.255)
-% Unknown command or computer name, or unable to find computer address
-
 Router#config t
 Enter configuration commands, one per line.  End with CNTL/Z.
-Router(config)#
-Router(config)#
-Router(config)#
-Router(config)#
 Router(config)#interface Serial2/0
 Router(config-if)#exit
 Router(config)#interface FastEthernet0/0
